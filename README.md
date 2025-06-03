@@ -60,4 +60,48 @@ Bidirectional language models consistently outperform unidirectional ones on nat
 - 🧪 Experimental scripts
 ---
 
+## Requirements
+Use python 3.11 from MiniConda
+```bash
+conda create -n flownib_env python=3.11
+conda activate flownib_env
+```
+To install all dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Quick Demos
+
+To get started, follow these simple steps:
+
+1. **Import the necessary modules:**
+
+    ```python
+      from transformers import AutoModelForCausalLM, AutoTokenizer
+      import RoCoFT
+      from modeling import CLMSequenceClassification # For casual language models
+      from modeling import MLMSequenceClassification # For masked language models
+    ```
+
+2. **Load a pre-trained model and apply PEFT:**
+
+    ```python
+      tokenizer = AutoTokenizer.from_pretrained("<model_name>", use_fast=False)
+      # Use MLMSequenceClassification for masked language models
+      model = CLMSequenceClassification.from_pretrained("<model_name>", num_labels=<number_of_labels>).to('cuda')
+      RoCoFT.PEFT(model, method='row', rank=3) 
+    ```
+
+3. **For column**
+
+    ```python
+
+    ```
+4. **In order to choose row or column using pruning technique**
+
+    ```python
+
+    ```
+
 
