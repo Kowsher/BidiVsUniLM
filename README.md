@@ -24,10 +24,10 @@ This is the implementation for the paper "`How Bidirectionality Helps Language M
 ---
 >
 > 🙋 Please let us know if you find out a mistake or have any suggestions!
+>
+>> 🧰 Feel free to explore, open issues, or contribute!
 > 
 > 🌟 If you find this resource helpful, please consider to star this repository and cite our research:
->
-> 🧰 Feel free to explore, open issues, or contribute!
 
 ```
 @article{kowsher2025bidirectionalityhelpslanguagemodels,
