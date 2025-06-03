@@ -72,6 +72,9 @@ conda activate flownib_env
 pip install -r requirements.txt
 ```
 
+## Datasets
+You can access the datasets from [HuggingFace](https://huggingface.co/) and [Kaggle](https://www.kaggle.com/)
+
 ## Quick Demos
 
 To get started, follow these simple steps:
