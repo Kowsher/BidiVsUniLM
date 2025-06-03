@@ -61,12 +61,13 @@ Bidirectional language models consistently outperform unidirectional ones on nat
 ---
 
 ## Requirements
-Use python 3.11 from MiniConda
+- GPU with minimum 24 GB VRAM
+- Use python 3.11 from MiniConda
 ```bash
 conda create -n flownib_env python=3.11
 conda activate flownib_env
 ```
-To install all dependencies:
+- Install all dependencies:
 ```bash
 pip install -r requirements.txt
 ```
