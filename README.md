@@ -93,15 +93,4 @@ To get started, follow these simple steps:
       RoCoFT.PEFT(model, method='row', rank=3) 
     ```
 
-3. **For column**
-
-    ```python
-
-    ```
-4. **In order to choose row or column using pruning technique**
-
-    ```python
-
-    ```
-
 
